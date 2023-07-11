@@ -1,4 +1,5 @@
-var firstName = "Aman";
-var LastName = "Kumar";
+"use strict";
+let firstName = "Aman";
+let LastName = "Kumar";
 // using template variable
-console.log("Hi ".concat(firstName, " ").concat(LastName));
+console.log(`Hi ${firstName} ${LastName}`);
